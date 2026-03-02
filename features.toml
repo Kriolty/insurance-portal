@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────────────────────
+# FEATURE FLAGS — Fire & General Insurance Portal
+# Set any feature to false to hide it from the UI.
+# Changes take effect on next page load (no restart needed).
+# ─────────────────────────────────────────────────────────────
+
+[features]
+# Core Insurance UX
+pdf_quote            = true    # Download a branded PDF quote after calculation
+claims_tracker       = true    # Visual pipeline tracker for submitted claims
+policy_dashboard     = true    # My Policies page with active cover & renewal dates
+email_quote          = true    # Send quote to an email address
+
+# Engagement
+comparison_mode      = true    # Side-by-side Basic / Standard / Comprehensive comparison
+excess_slider        = true    # Live excess ↔ premium slider
+risk_radar_chart     = true    # Spider chart of user risk profile
+postcode_heatmap     = true    # Flood/bushfire risk map of Australia
+
+# AI-Powered
+ai_damage_detection  = true    # GPT-4o Vision real damage detection from photos
+natural_language     = true    # Chat interface: describe situation → fields auto-fill
+fraud_scoring        = true    # Flag suspicious claims with automated risk score
+
+# Business & Operations
+broker_callback      = true    # Speak to a broker — lead capture form
+admin_dashboard      = true    # Password-protected analytics dashboard
+multi_asset_bundle   = true    # Quote car + home together with bundle discount
+renewal_reminder     = true    # Enter policy expiry → email reminder 30 days before
